@@ -8,9 +8,9 @@ function exibeNN(alunos){
         const indice = listaALMD[0].indexOf(alunos);
         const mediaAL= listaALMD[1][indice];
 
-        console.log(`${alunos} tem a média ${mediaAL}.`);
+        console.log(`${alunos} tem a média${mediaAL}.`);
     }else{
         console.log('Aluno não encontrado na base de dados!')
     }
 }
-exibeNN('Juliana');
+exibeNN('Joao');
